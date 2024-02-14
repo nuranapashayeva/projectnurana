@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    background-color: #101729;
+    color: white;
+    align-items: center;
+}
+
+header {
+    margin: 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo{
+    height: 64px;
+    width: auto;
+}
+
+.menu-nav {
+    padding: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.menu-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.menu-nav li {
+    padding: 10px
+}
+
+.menu-nav a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    font-size: 18px;
+    font-weight: bold; 
+    display: inline;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+}
+
+section {
+    max-width: 1245px;
+    margin: 0 auto;
+}
+
+
+.recent-projects h1{
+    margin-top: 92px;
+    padding: 10px;
+}
+
+
+.h1-span{
+    color: #25ABD5;
+}
+
+.recentprojects-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 32px;
+}
+
+.latest-post-cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    gap: 32px;
+}
+.recent-projects .card{
+    display: flex;
+    padding: 32px;
+    border-radius: 16px;
+    gap: 32px;
+    align-items: center;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item h2 {
+    padding-bottom: 24px;
+    font-size: 32px;
+}
+
+.card-item p{
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card img{
+    width: 128px;
+    height: auto;
+    padding:10px;
+}
+
+.latest-posts h1{
+    margin-top: 64px;
+    padding: 10px;
+}
+ 
+.latest-posts .card{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 16px;
+    gap: 32px;
+    align-items: center;
+}
+
+.latest-posts .card-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-posts .card img{
+    width: 100%;
+    padding:10px;
+}
+
+.latest-posts p{
+    text-align: justify;
+}
+
+hr {
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+footer{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 32px 0;
+
+}
+
+.socials{
+    font-size: 16px;
+}
